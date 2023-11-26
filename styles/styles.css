@@ -1,0 +1,31 @@
+/* styles.css */
+
+body {
+    background-color: #f1f1f1; /* Cor de fundo suave */
+}
+
+.navbar {
+    background-color: #ffcc00; /* Amarelo representativo da Patrulha Canina */
+}
+
+.navbar-brand {
+    color: #0040ff; /* Azul da Patrulha Canina */
+    font-weight: bold;
+}
+
+.navbar-nav .nav-link {
+    color: #0040ff; /* Azul da Patrulha Canina */
+}
+
+.container {
+    background-color: #ffffff; /* Fundo branco para destacar o conteúdo */
+    padding: 20px;
+    border-radius: 10px; /* Borda arredondada */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Sombra suave */
+}
+
+footer {
+    margin-top: 20px;
+    text-align: center;
+    color: #777; /* Cinza para o rodapé */
+}
