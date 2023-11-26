@@ -1,21 +1,41 @@
+/* styles/styles.css */
 /* styles.css */
 
 body {
     background-color: #f1f1f1; /* Cor de fundo suave */
 }
 
+/* Estilos para a barra de navegação */
 .navbar {
-    background-color: #ffcc00; /* Amarelo representativo da Patrulha Canina */
+    background-color: #2a4d85; /* Azul principal da Patrulha Canina */
+    border-bottom: 1px solid #144279; /* Tom mais escuro de azul para a linha de separação */
 }
 
 .navbar-brand {
-    color: #0040ff; /* Azul da Patrulha Canina */
-    font-weight: bold;
+    color: #ffffff; /* Cor do texto do logotipo (branco) */
+}
+
+.navbar-brand img {
+    max-width: 100%; /* Garante que o logotipo não ultrapasse o contêiner */
+    height: auto;
+}
+
+.navbar-nav {
+    margin-left: auto; /* Alinha os itens da barra de navegação à direita */
+}
+
+.navbar-nav .nav-item {
+    margin-right: 15px; /* Espaçamento entre os itens da barra de navegação */
 }
 
 .navbar-nav .nav-link {
-    color: #0040ff; /* Azul da Patrulha Canina */
+    color: #ffffff; /* Cor dos links na barra de navegação (branco) */
 }
+
+/* Altere as cores conforme necessário para corresponder à paleta de cores da Patrulha Canina */
+
+/* Adicione mais estilos conforme necessário */
+
 
 .container {
     background-color: #ffffff; /* Fundo branco para destacar o conteúdo */
